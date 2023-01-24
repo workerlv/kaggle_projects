@@ -1,0 +1,28 @@
+{
+      "LogisticRegression": {
+            "C": 0.5,
+            "max_iter": 50,
+            "penalty": "l2"
+      },
+      "KNN": {
+            "n_neighbors": 9,
+            "p": 2
+      },
+      "RandomForest": {
+            "max_depth": 12,
+            "n_estimators": 50
+      },
+      "XGBoost": {
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "n_estimators": 200
+      },
+      "CatBoost": {
+            "learning_rate": 0.15,
+            "max_depth": 8,
+            "n_estimators": 150
+      },
+      "NaiveBayes": {
+            "var_smoothing": 1e-10
+      }
+}
